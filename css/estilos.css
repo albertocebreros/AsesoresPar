@@ -1,0 +1,10 @@
+header {
+	background-image: url(../Resourse/imagenes/Banner.jpeg);
+	opacity: 0.8;
+	filter: alpha(opacity=70);
+}
+h1 {
+	-webkit-text-stroke: 1px black;
+	color: white;
+}
+
