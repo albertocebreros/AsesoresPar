@@ -197,4 +197,37 @@ function AltaMaterias()
             
         }
     } );
+    $("#idmateria").val("");
+    $("#nmateria").val("");
+}
+function Validacion(){
+        var codigo = $('#idmateria').val();
+        
+        $('#idmateria').val(codigo.slice(0, 6));
+}
+function BajaMateria(){
+
+    var parametros = {
+        'opc': 'BajaMateria',
+        'materia':$('#selector').val()
+    };
+    $.ajax(
+    {
+        url:'php/funciones.php',
+        type:'POST',
+        dataType:'json',
+        data:parametros,
+        async:false,
+
+        success:function(resultado)
+        {
+                
+                
+        },
+        error:function(xhr,status,error) 
+        {
+            
+        }
+    } );
+    window.location.reload();
 }

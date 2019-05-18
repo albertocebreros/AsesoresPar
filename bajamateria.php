@@ -4,10 +4,6 @@
      {
      header('Location: asesorado.php');
      }
-    else
-    if($_SESSION["tipo"]=="1"){
-      header('Location: asesor.php');
-    }
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -63,12 +59,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 mx-auto">
-                  <label for="idmateria">ID de la materia:</label>
-                  <input type="number" class="form-control" id="idmateria"  placeholder="Id de la Materia" onkeyup="Validacion()" >
-                  <label for="nombremateria">Nombre de la materia:</label>
-                  <input type="text" class="form-control" id="nmateria"  placeholder="Nombre de Materia" maxlength="200">
+                  <label for="Materia">Materia a Eliminar:</label>
+                  <select id="selector">
+                  </select>
                   <div  align="center">
-                    <button onclick="AltaMaterias()" class="btn btn-outline-primary btn-lg">Registrar</button>
+                    <button onclick="BajaMateria()" class="btn btn-outline-primary btn-lg">Eliminar</button>
                   </div>
               </div>
             </div>
@@ -88,6 +83,7 @@
     <script src="jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom JavaScript for this theme -->
     <!--<script src="js/scrolling-nav.js"></script>-->
+    <script src="js/selector.js"></script>
     <script src="js/funciones.js"></script>
   </body>
 
