@@ -21,7 +21,7 @@ function BajaMateria(){
     };
     $.ajax(
     {
-        url:'php/baja_materia.php',
+        url:'php/materia_baja.php',
         type:'POST',
         dataType:'json',
         data:parametros,
