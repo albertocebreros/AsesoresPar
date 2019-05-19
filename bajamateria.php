@@ -1,8 +1,8 @@
 <?php
     session_start();
-     if($_SESSION["tipo"]=="2")
+     if($_SESSION["tipo"]=="3")
      {
-     header('Location: asesorado.php');
+     header('Location: index.php');
      }
 ?>
 <!DOCTYPE html>

@@ -5,7 +5,6 @@
     header('Location: login.php');
     }
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 
