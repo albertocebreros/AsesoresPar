@@ -83,7 +83,6 @@
   </footer>
 <script type="text/javascript" src="jquery/jq.js"></script>
 <script type="text/javascript" src="jquery/jquery.min.js"></script>
-<script type="text/javascript" src="js/funciones.js"></script>
   <!-- Bootstrap core JavaScript -->
   <script src="jquery/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>

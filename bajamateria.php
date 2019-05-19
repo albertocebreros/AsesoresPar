@@ -82,8 +82,7 @@
     <script src="jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom JavaScript for this theme -->
     <!--<script src="js/scrolling-nav.js"></script>-->
-    <script src="js/selector.js"></script>
-    <script src="js/funciones.js"></script>
+    <script src="js/materia_baja.js"></script>
   </body>
 
 </html>
