@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     $.ajax({
-        url: 'php/consultar_materias.php',
+        url: 'php/materias_consultar.php',
         type: 'GET',
         dataType: 'Json',
         success: function(data){
