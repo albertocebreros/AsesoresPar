@@ -1,6 +1,15 @@
 $( document ).ready(function() {
     $( "#idmateria" ).prop( "disabled", true );
-    $.ajax({
+    
+    option();
+    setTimeout(function(){ConsultarMateria()},300) 
+
+  });
+
+function option()
+{
+    $("#selector").html("");
+     $.ajax({
         url: 'php/materias_consultar.php',
         type: 'GET',
         dataType: 'Json',
@@ -14,7 +23,8 @@ $( document ).ready(function() {
             console.log(error);
         }
     });
-  });
+}
+
 function ConsultarMateria(){
     var parametros = {
         'materia':$('#selector').val()
@@ -66,5 +76,5 @@ function CambiarNombreMateria(){
             
         }
     } );
-    window.location.reload();
+    option();
 }
