@@ -68,7 +68,7 @@
                   <label for="nombremateria">Nombre de la materia:</label>
                   <input type="text" class="form-control" id="nmateria"  placeholder="Nombre de Materia" maxlength="200">
                   <div  align="center">
-                    <button onclick="AltaMaterias()" class="btn btn-outline-primary btn-lg">Registrar</button>
+                    <button onclick="AltaMaterias()" class="btn btn-outline-primary btn-lg mt-3">Registrar</button>
                   </div>
               </div>
             </div>

@@ -62,7 +62,7 @@
                   <select id="selector">
                   </select>
                   <div  align="center">
-                    <button onclick="BajaMateria()" class="btn btn-outline-primary btn-lg">Eliminar</button>
+                    <button onclick="BajaMateria()" class="btn btn-outline-primary btn-lg mt-3">Eliminar</button>
                   </div>
               </div>
             </div>
