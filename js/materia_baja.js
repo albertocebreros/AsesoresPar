@@ -19,7 +19,6 @@ function recargar(){
     });
 }
 function BajaMateria(){
-
     var parametros = {
         'materia':$('#selector').val()
     };
