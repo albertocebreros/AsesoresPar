@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+    recargar();
+  });
+function recargar(){
+    $("#selector").html("");
     $.ajax({
         url: 'php/materias_consultar.php',
         type: 'GET',
@@ -13,7 +17,7 @@ $( document ).ready(function() {
             console.log(error);
         }
     });
-  });
+}
 function BajaMateria(){
 
     var parametros = {
@@ -37,5 +41,5 @@ function BajaMateria(){
             
         }
     } );
-    window.location.reload();
+    recargar();
 }
