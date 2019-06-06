@@ -1,9 +1,7 @@
 $( document ).ready(function() {
     $( "#idmateria" ).prop( "disabled", true );
-    
     option();
     setTimeout(function(){ConsultarMateria()},300) 
-
   });
 
 function option()
