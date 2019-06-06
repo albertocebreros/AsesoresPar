@@ -65,8 +65,8 @@
           <div class="col-lg-4 mx-auto">
                   <label for="idmateria">ID de la materia:</label>
                   <input type="number" class="form-control" id="idmateria"  placeholder="Id de la Materia" onkeyup="Validacion()" >
-                  <label for="nombremateria">Nombre de la materia:</label>
-                  <input type="text" class="form-control" id="nmateria"  placeholder="Nombre de Materia" maxlength="200">
+                  <label for="nombremateria">Nombre de la materia: (Sin caracteres especiales,Ñ o acentos)</label>
+                  <input type="text" class="form-control" id="nmateria"  placeholder="Nombre de la materia" maxlength="200">
                   <div  align="center">
                     <button onclick="AltaMaterias()" class="btn btn-outline-primary btn-lg mt-3">Registrar</button>
                   </div>
