@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-05-2019 a las 05:35:39
+-- Tiempo de generación: 06-06-2019 a las 21:15:31
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.3.2
 
@@ -88,16 +88,7 @@ CREATE TABLE `materias` (
 --
 
 INSERT INTO `materias` (`Nombre_Materia`, `idmateria`) VALUES
-('Matematicas', 'mat'),
-('EspaÃ±ol', '123'),
-('EspaÃ±ol', '123'),
-('EspaÃ±ol', '123'),
-('EspaÃ±ol', '123'),
-('EspaÃ±ol', '123'),
-('EspaÃ±ol', '123'),
-('EspaÃƒÂ±ol', '123'),
-('Español', '123'),
-('Español', '1234');
+('matematicas', '323213');
 
 -- --------------------------------------------------------
 

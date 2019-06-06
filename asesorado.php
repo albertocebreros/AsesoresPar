@@ -67,15 +67,18 @@
       <div class="row">
         <div class="col-lg-12 mx-auto">
            <center>
-          <button class="btn btn-outline-primary">
+          <form method="get" action="tiramateriasasesorado.php">
+          <button type="submit"class="btn btn-outline-primary">
           <b>Tira De Materias</b>
-        </button>
-        <button class="btn btn-outline-primary">
+        </button></form>
+        <form method="get" action="">
+          <button type="submit"class="btn btn-outline-primary" onclick=>
           <b>Mis Materias</b>
-        </button>
-        <button class="btn btn-outline-primary">
+        </button></form>
+        <form method="get" action="">
+          <button type="submit"class="btn btn-outline-primary">
           <b>Extra</b>
-        </button>
+        </button></form>
       </center>
       
         </div>
